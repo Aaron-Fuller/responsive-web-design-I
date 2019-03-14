@@ -152,7 +152,7 @@ h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .middle-img {
-    width:100%;
+  width: 100%;
 }
 
 .container {
@@ -166,13 +166,11 @@ h5 {
 }
 
 header {
-
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-padding-top: 20px;
-border: 1px solid red;
-  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 20px;
+  border: 1px solid red;
 }
 
 header img {
@@ -193,11 +191,11 @@ header nav a {
 }
 
 .navigation {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-    border: 1px solid yellow;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  border: 1px solid yellow;
 }
 
 .innovation {
@@ -252,151 +250,83 @@ h1 {
   font-size: 40px;
 }
 
-.mainContainOne2 p {
-  margin-bottom: 20px;
-}
-
-.services-header-img {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.allBoxes {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.allBoxes div {
-  text-align: left;
-  display: flex;
-  width: 48%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  flex-wrap: wrap;
-  border: 1px solid black;
-  background: #f4f2f4;
-}
-
-.allBoxes div h3,
-button {
-  margin: 20px;
-}
-
-.allBoxes p {
-  margin-right: 20px;
-  margin-left: 20px;
-}
-
-.lastContain {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.someFacts {
-  width: 48%;
-  padding-top: 20px;
-}
-
-.services-info-img {
-  width: 48%;
-  padding-top: 20px;
-}
-
-ul {
-  list-style-type: square;
-  padding-left: 20px;
-}
-
-
-
 @media (max-width: 800px) {
   p {
     color: red;
   }
 
   .container {
-      width: 100%;
+    width: 100%;
   }
 
   .circle {
-      display: none;
+    display: none;
   }
 
   button {
-      padding-left: 40px;
-      padding-right: 40px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      background-color: white;
-      border: 1px solid black;
-  }
-
-  header {
-    
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
   }
 }
 
 @media (max-width: 500px) {
-    p {
-      color: green;
-    }
-    .container {
-        width: 90%;
-    }
-
-    .mainContainOne{
-        flex-direction: column;
-    }
-
-    .mainContainTwo{
-        flex-direction: column;
-        padding-bottom: 20px;
-    }
-
-    .about {
-        padding-top: 40px;
-    }
-
-    .product {
-        padding-top: 40px;
-    }
-
-    .vision {
-        padding-top: 40px;
-    }
-
-    .container2 {
-        padding-bottom: 40px;
-    }
-
-    .contact {
-        padding-bottom: 20px;
-    }
-
-    header {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        padding-top: 20px;
-        border: 1px solid red;
-    }
-
-    nav {
-      width: 100%;
-    }
-
-    header nav a {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        flex-direction: column;
-        padding-top: 20px;
-
-    }
-
-
+  p {
+    color: green;
   }
+  .container {
+    width: 90%;
+  }
+
+  .mainContainOne {
+    flex-direction: column;
+  }
+
+  .mainContainTwo {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  .about {
+    padding-top: 40px;
+  }
+
+  .product {
+    padding-top: 40px;
+  }
+
+  .vision {
+    padding-top: 40px;
+  }
+
+  .container2 {
+    padding-bottom: 40px;
+  }
+
+  .contact {
+    padding-bottom: 20px;
+  }
+
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 20px;
+    border: 1px solid red;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  header nav a {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+}
