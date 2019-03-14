@@ -4,202 +4,327 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
-.container {
-	width: 878px;
-	margin: auto;
+.middle-img {
+    width:100%;
 }
 
-.cantainerp2{
-	width: 878px;
-	margin: auto;
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.cantainerp2 {
+  width: 878px;
+  margin: auto;
 }
 
 header {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 20px;
 }
 
 header img {
-	display: flex;
+  display: flex;
 }
 
 header nav a {
-	margin: 0 20px;
-	color: gray;
-	text-decoration: none;
-	
+  margin: 0 20px;
+  color: gray;
+  text-decoration: none;
 }
 
 .innovation {
-	text-align: center;
-	font-size: 80px;
-	line-height: 0.5;
-	padding-top: 100px;
+  text-align: center;
+  font-size: 80px;
+  line-height: 0.5;
+  padding-top: 100px;
 }
 
 .container2 {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	padding-bottom: 100px;
-	padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 100px;
+  padding-top: 50px;
 }
 
 hr {
-	display: flex;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-	border-width: 2px;
+  display: flex;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-width: 2px;
+  width: 100%;
 }
 
 .mainContainOne {
-	display: flex;
-	justify-content: space-evenly;
-	padding-top: 50px;
-	padding-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .mainContainTwo {
-	display: flex;
-	justify-content: space-evenly;
-	padding-top: 50px;
-	padding-right: 20px;
-	padding-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-bottom: 50px;
 }
 
 .contact {
-	padding-top: 50px;
+  padding-top: 50px;
 }
 
 .footer {
-	padding-top: 30px;
-	padding-bottom: 60px;
-	text-align: center;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  text-align: center;
 }
 
 h1 {
-	font-size: 40px;
+  font-size: 40px;
 }
 
-.mainContainOne2 p{
-	margin-bottom: 20px;
+.mainContainOne2 p {
+  margin-bottom: 20px;
 }
 
 .services-header-img {
-	padding-top: 30px;
-	padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .allBoxes {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: space-between
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .allBoxes div {
-	text-align: left;
-	display: flex;
-	width: 48%;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	flex-wrap: wrap;
-	border: 1px solid black;
-	background: #f4f2f4;
+  text-align: left;
+  display: flex;
+  width: 48%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  background: #f4f2f4;
 }
 
-.allBoxes div h3 , button {
-	margin: 20px;
+.allBoxes div h3,
+button {
+  margin: 20px;
 }
 
 .allBoxes p {
-	margin-right: 20px;
-	margin-left:  20px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .lastContain {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.someFacts{
-	width:  48%;
-	padding-top: 20px;
+.someFacts {
+  width: 48%;
+  padding-top: 20px;
 }
 
-.services-info-img{
-	width:  48%;
-	padding-top: 20px;
+.services-info-img {
+  width: 48%;
+  padding-top: 20px;
 }
 
 ul {
-	list-style-type: square;
-	padding-left: 20px;
+  list-style-type: square;
+  padding-left: 20px;
 }
 
+
+
+@media (max-width: 800px) {
+  p {
+    color: red;
+  }
+
+  .container {
+      width: 100%;
+  }
+
+  .circle {
+      display: none;
+  }
+
+  button {
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: white;
+      border: 1px solid black;
+  }
+}
+
+@media (max-width: 500px) {
+    p {
+      color: green;
+    }
+    .container {
+        width: 100%;
+    }
+
+  }
