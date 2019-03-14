@@ -190,6 +190,7 @@ header nav a {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-evenly;
   width: 70%;
   border: 1px solid yellow;
 }
@@ -279,6 +280,12 @@ h1 {
     padding-left: 0;
     width: 30%;
     padding-bottom: 2%;
+    align-self: center;
+  }
+
+  nav {
+    align-self: center;
+    width: 100% !important;
   }
 
 }
@@ -324,12 +331,14 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    align-items: center;
     padding-top: 20px;
     border: 1px solid red;
   }
 
-  nav {
+  .navigation {
     width: 100%;
+    align-self: center;
   }
 
   header nav a {
@@ -343,5 +352,6 @@ h1 {
   header img {
     padding-left: 0;
     width: 10%;
+    align-self: center;
   }
 }
