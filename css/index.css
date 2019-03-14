@@ -160,11 +160,6 @@ h5 {
   margin: auto;
 }
 
-.cantainerp2 {
-  width: 878px;
-  margin: auto;
-}
-
 header {
   display: flex;
   flex-wrap: wrap;
@@ -177,11 +172,12 @@ header img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-left: 5%;
   border: 1px solid blue;
 }
 
 header nav a {
-  margin: 0 15px;
+  margin: 0 1.5%;
   color: gray;
   text-decoration: none;
   display: flex;
@@ -194,7 +190,7 @@ header nav a {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 100%;
+  width: 70%;
   border: 1px solid yellow;
 }
 
@@ -271,6 +267,20 @@ h1 {
     background-color: white;
     border: 1px solid black;
   }
+
+  header {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+
+  }
+
+  header img {
+    padding-left: 0;
+    width: 30%;
+    padding-bottom: 2%;
+  }
+
 }
 
 @media (max-width: 500px) {
@@ -328,5 +338,10 @@ h1 {
     width: 100%;
     flex-direction: column;
     padding-top: 20px;
+  }
+
+  header img {
+    padding-left: 0;
+    width: 10%;
   }
 }
