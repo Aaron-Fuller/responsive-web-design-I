@@ -153,11 +153,14 @@ h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .middle-img {
   width: 100%;
+  border: 1px solid red;
 }
 
 .container {
   width: 800px;
   margin: auto;
+  border: 1px solid green;
+
 }
 
 header {
@@ -165,6 +168,8 @@ header {
   flex-wrap: wrap;
   flex-direction: row;
   padding-top: 20px;
+  border: 1px solid blue;
+
 }
 
 header img {
@@ -172,6 +177,8 @@ header img {
   flex-direction: row;
   flex-wrap: wrap;
   padding-left: 5%;
+  border: 1px solid red;
+
 }
 
 header nav a {
@@ -181,6 +188,8 @@ header nav a {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  border: 1px solid pink;
+
 }
 
 .navigation {
@@ -189,6 +198,8 @@ header nav a {
   flex-direction: row;
   justify-content: space-evenly;
   width: 70%;
+  border: 1px solid orange;
+
 }
 
 .innovation {
